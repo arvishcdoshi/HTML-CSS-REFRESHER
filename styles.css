@@ -1,57 +1,43 @@
-/* p.error{
-    color: red;
-}
-
-p.success{
-    color: #4fdb4f;
-}
-
-p.success.feedback{
-    border: 1px dashed #4fdb4f;
-}
-
-div#content{
-    background-color: #ebebeb;
+header{
+    background-color: #F63232;
     padding: 20px;
-} */
-
-/* div p{
-    color: purple;
-} */
-
-/* div .error{
-    color: red;
-} */
-
-/* a[href*="thenetninjas"]{
-    background-color: #3dd13d;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 
-a[href$=".com"]{
-    color: white;
-    background-color: red;
-    border: 2px solid blue;
-} */
-
-/* INHERITANCE */
-
-div{
-    color: lightcoral;
-    border: 1px solid grey;
-    margin: 40px;
-    font-weight: bold;
+header h1{
+    color:white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
 }
 
-div p{
-    border: inherit;
-    margin: inherit;
-    color: crimson;
+.banner{
+    position: relative;
 }
 
-p{
-    color: orange;
+.banner img{
+    max-width: 100%;
+}
+
+.banner .welcome{
+    background-color: #FEB614;
+    color:white;
+    position: absolute;
+    padding: 30px;
+    left: 0px;
+    top: 30%;
+}
+
+.banner h2{
+    font-size: 74px;
+}
+
+.banner h2 span{
+    font-size: 1.3em;
 }

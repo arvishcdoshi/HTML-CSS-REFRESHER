@@ -174,3 +174,24 @@ p::selection{
 p::after{
     content: '...';
 }
+
+/*  Responsive Styles */
+
+@media screen and (max-width:1150px){
+
+    .banner .welcome h2{
+        font-size: 60px;
+    }
+
+    nav li{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:900px){
+
+    .banner .welcome h2{
+        font-size: 45px;
+    }
+
+}
